@@ -18,6 +18,7 @@ const String kTitleString = 'Flutter Defanged';
 // null safe-wise this should be:
 //  GenerateAppTitle? onGenerateTitle
 Future<void> pumpApp(WidgetTester tester,
+    // ignore: prefer-trailing-comma
     {GenerateAppTitle onGenerateTitle}) async {
   await tester.pumpWidget(
     WidgetsApp(
@@ -32,6 +33,7 @@ Future<void> pumpApp(WidgetTester tester,
         return PageRouteBuilder<void>(
             // ignore: prefer-trailing-comma
             pageBuilder: (BuildContext context, Animation<double> animation,
+                // ignore: prefer-trailing-comma
                 Animation<double> secondaryAnimation) {
           return Container();
         });
@@ -53,6 +55,7 @@ void main() {
 
   group('Basic App Chrome Title test', () {
     testWidgets('Specified title and color are used to build a Title',
+        // ignore: prefer-trailing-comma
         (WidgetTester tester) async {
       await pumpApp(tester);
       expect(tester.widget<Title>(find.byType(Title)).title, kTitleString);
@@ -60,6 +63,7 @@ void main() {
     });
 
     testWidgets('onGenerateTitle handles changing locales',
+        // ignore: prefer-trailing-comma
         (WidgetTester tester) async {
       String generateTitle(BuildContext context) {
         return Localizations.localeOf(context).toString();

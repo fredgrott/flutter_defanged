@@ -40,7 +40,7 @@ dev_dependencies:
   lint: ^1.0.0
   golden_toolkit: ^0.9.0
   build_runner: ^1.11.1
-  mockito: ^4.1.4
+  mockito: ^5.0.4
   dart_code_metrics: ^3.0.0
   
 

@@ -23,6 +23,7 @@ import 'package:integration_test/integration_test.dart';
 void main() {
   // docs correction, it needs to go immediately first
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
+  // ignore: no-empty-block
   setUpAll(() async {
     //IntegrationTestWidgetsFlutterBinding.ensureInitialized();
   });

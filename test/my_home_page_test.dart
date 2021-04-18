@@ -11,6 +11,7 @@ import 'package:golden_toolkit/golden_toolkit.dart';
 
 
 
+// ignore: long-method
 void main() {
    WidgetsFlutterBinding.ensureInitialized();
   testGoldens('DeviceBuilder - one scenario - default devices', (tester) async {
