@@ -49,11 +49,13 @@ class _MyHomePageState extends State<MyHomePage> {
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     return Scaffold(
+      //TODO Better design implemented appbar for branding
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
         // need ?? "" as I have not switched to null safety yet and it will hang on null 
         // on widget testing
+        // TODO change this to migrate to null-safety
         title: Text(widget.title ?? ""),
       ),
       body: Center(
@@ -86,6 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
+      //TODO change to a cross-platform FAB
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',

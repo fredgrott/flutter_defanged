@@ -5,7 +5,7 @@
 #    JUNIT2HTML PYTHON SCRIPT INSTALLED
 #    PLANTUML JAR INSTALLED IN FOLDER AND ENV SET TO ITS PATH AS #              PLANTUML ENV VARIABLE
 #
-#   IF ON WINDOWS THAN CHOCLATEY PM CAN BE USED TO 
+#   IF ON WINDOWS THAN CHOCOLATEY PM CAN BE USED TO 
 #   INSTALL WINDOW VERSION OF LCOV AND THAT ALSO INSTALLS
 #   PERL AND THAN INSTALL PYTHON VIA CHOCOLATEY AND THAN USE 
 #   PIP TO INSTALL JUNIT2HTML
@@ -26,7 +26,7 @@
 # derry doc
 #
 # note since pub is on my path via dark sdk path
-# no need to specift pub run stuff to run binaries
+# no need to specific pub run stuff to run binaries
 # just the binary name suffices
 
 # SIDE NOTE: How did I come up with this organized shit?!
@@ -96,7 +96,7 @@ test:
 
 # win64 flutter test --coverage --coverage-path reports\coverage
 # mac64 flutter test --coverage --coverage-path reports/coverage
-# --coverage-path currrently fails on windows
+# --coverage-path currently fails on windows
 # the GENTHML var is the location of perl genhtml  script as
 # part of the lcov package
 mycoverage:
@@ -205,7 +205,7 @@ docs:
     - mkdir doc/api/images
     - cp media/git-repo-card.png doc/api/images
     - cp media/screenshot.png doc/api/images
-    -echo api docs generated
+    - echo api docs generated
 # I avoid stating these as multilines as the commands
 # for multilines are different per desktop OS
 integration:

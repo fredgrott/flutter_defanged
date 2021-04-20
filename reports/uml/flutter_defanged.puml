@@ -1,0 +1,28 @@
+@startuml
+set namespaceSeparator ::
+
+class "flutter_defanged::app::modules::homepage::views::my_home_page.dart::MyHomePage" {
+  {static} +Key titleKey
+  +dynamic title
+  +_MyHomePageState createState()
+}
+
+"flutter_defanged::app::modules::homepage::views::my_home_page.dart::MyHomePage" o-- "flutter::src::foundation::key.dart::Key"
+"flutter::src::widgets::framework.dart::StatefulWidget" <|-- "flutter_defanged::app::modules::homepage::views::my_home_page.dart::MyHomePage"
+
+class "flutter_defanged::app::modules::homepage::views::my_home_page.dart::_MyHomePageState" {
+  -int _counter
+  -void _incrementCounter()
+  +Widget build()
+}
+
+"flutter::src::widgets::framework.dart::State<T>" <|-- "flutter_defanged::app::modules::homepage::views::my_home_page.dart::_MyHomePageState"
+
+class "flutter_defanged::app::modules::myapp::views::my_app.dart::MyApp" {
+  +Widget build()
+}
+
+"flutter::src::widgets::framework.dart::StatelessWidget" <|-- "flutter_defanged::app::modules::myapp::views::my_app.dart::MyApp"
+
+
+@enduml

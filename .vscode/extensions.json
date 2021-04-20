@@ -49,6 +49,7 @@
     "vscode-icons-team.vscode-icons",
     "spacek33z.vscode-open-in-gitfork",
     "hediet.vscode-drawio",
-    "ymotongpoo.licenser"
+    "ymotongpoo.licenser",
+    "markis.code-coverage"
   ]
 }

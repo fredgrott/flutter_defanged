@@ -1,25 +1,26 @@
 # Flutter Defanged
 
-
 ![git-repo-card](./media/git_repo_card.png)
 
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/fredgrott)[![Xing](https://img.shields.io/badge/Xing-006567?style=for-the-badge&logo=xing&logoColor=white)](https://www.xing.com/profile/Fred_Grott/cv)[![keybase](https://img.shields.io/badge/Keybase-33A0FF?&style=for-the-badge&logo=keybase&logoColor=white)](https://keybase.io/fredgrott)[![github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fredgrott)[![medium](https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white)](https://fredgrott.medium.com)[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fredgrottstartupfluttermobileappdesigner/)![dart](https://img.shields.io/badge/dart-%230175C2.svg?&style=for-the-badge&logo=dart&logoColor=white)![flutter](https://img.shields.io/badge/Flutter%20-%2302569B.svg?&style=for-the-badge&logo=Flutter&logoColor=white)![vscode](https://img.shields.io/badge/VSCode-007ACC?&style=for-the-badge&logo=visual-studio-code&logoColor=white)![android studio](https://img.shields.io/badge/Android_Studio-3DDC84?&style=for-the-badge&logo=android-studio&logoColor=white)![markdown](https://img.shields.io/badge/Markdown-000000?&style=for-the-badge&logo=markdown&logoColor=white)![bsdlicense](https://img.shields.io/badge/-BSD_License-61DAFB?&logoColor=white&style=for-the-badge)
 
 [![HitCount](http://hits.dwyl.com/fredgrott/flutter-defanged.svg)](http://hits.dwyl.com/fredgrott/flutter_defanged)![Maintainer](https://img.shields.io/badge/maintainer-theMaintainer-blue)[![GitHub forks](https://img.shields.io/github/forks/fredgrott/flutter_defanged.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/fredgrott/flutter_defanged/network/)[![GitHub stars](https://img.shields.io/github/stars/fredgrott/flutter_defanged.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fredgrott/flutter_defanged/stargazers/)[![GitHub followers](https://img.shields.io/github/followers/fredgrott.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/fredgrott?tab=followers)[![GitHub contributors](https://img.shields.io/github/contributors/fredgrott/flutter_defanged.svg)](https://github.com/fredgrott/flutter-defanged/graphs/contributors/)[![GitHub issues](https://img.shields.io/github/issues/fredgrott/flutter-defanged.svg)](https://github.com/fredgrott/base_river/issues/)[![GitHub issues-closed](https://img.shields.io/github/issues-closed/fredgrott/flutter_defanged.svg)](https://github.com/fredgrott/base_river/issues?q=is%3Aissue+is%3Aclosed)
 
-
-Let me defange the process of learning Flutter UI-Kit framework and the Dart-computer-language. The process starts with master-branch to these branches:
+Let me defange the process of learning the Flutter UI-Kit framework and the Dart-computer-language. The process starts with master-branch to these branches:
 
 -project-prep
+
 -arch-prep
+
 -ui-crossplat-prep
+
 -ui-theme-ing
 
 ## Screenshots
 
-
-
 ## TODO NOTE
+
+As of 4-20-21, derry script lib not being updated due to the conflict in Myanmar as lib-plugin author is from that country. Thus, have to do the other project tasks manually until derry script dep updated.
 
 As of 4-4-21, the support for integration_test screenshots on iOS and android has been merged per:
 
@@ -27,9 +28,21 @@ As of 4-4-21, the support for integration_test screenshots on iOS and android ha
 
 Once it shows up in the sdk, I will enable that in the integration-test implementation. It's needed as all the plugins rely upon the old integration-test implementation which is no longer in the flutter sdk.
 
+## Completed
+
+Things completed group by branch, ordered by latest first.
+
+### Project-prep
+
+[project-prep](https://github.com/fredgrott/flutter_defanged/tree/project-prep)
+
+On the project-prep branch, separated out modules into main function, and appsplash and homepage modules. Applied a lint plugin and made corrections based on the lint hints. Implemented basic integration-instrumented testing, goldens, and widget testing. Set-up derry script to automate some project tasks of code metrics, dart doc generation, uml diagram generation, etc. Structured code to fit a ddd-style architecture of onion layering.
+
 ## Articles
 
 Articles are listed by branch and match up with their listed branch:
+
+-project-prep
 
 ## Framework Prerequisites
 
@@ -156,4 +169,3 @@ Flutter Community Resources:
 -[Dart Docs](https://dart.dev/guides)
 
 -[Deep Dive into the Pubspec](https://medium.com/flutter-community/deep-dive-into-the-pubspec-yaml-file-fb56ac8683b9)
-

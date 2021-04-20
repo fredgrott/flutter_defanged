@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite errors="0" failures="0" tests="2" skipped="0" name="D:.fredgrttsstuff.GithubProjects.flutter_defanged.test.app_title" timestamp="2021-04-20T12:58:21">
+    <properties>
+      <property name="platform" value="vm"/>
+    </properties>
+    <testcase classname="D:.fredgrttsstuff.GithubProjects.flutter_defanged.test.app_title" name="Basic App Chrome Title test Specified title and color are used to build a Title" time="2.044"/>
+    <testcase classname="D:.fredgrttsstuff.GithubProjects.flutter_defanged.test.app_title" name="Basic App Chrome Title test onGenerateTitle handles changing locales" time="0.034"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" tests="2" skipped="0" name="D:.fredgrttsstuff.GithubProjects.flutter_defanged.test.golden_widget" timestamp="2021-04-20T12:58:21">
+    <properties>
+      <property name="platform" value="vm"/>
+    </properties>
+    <testcase classname="D:.fredgrttsstuff.GithubProjects.flutter_defanged.test.golden_widget" name="Basic Golden Tests  Golden test" time="3.882"/>
+    <testcase classname="D:.fredgrttsstuff.GithubProjects.flutter_defanged.test.golden_widget" name="Basic Golden Tests  DeviceBuilder  Golden" time="0.574"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" tests="3" skipped="0" name="D:.fredgrttsstuff.GithubProjects.flutter_defanged.test.my_home_page" timestamp="2021-04-20T12:58:21">
+    <properties>
+      <property name="platform" value="vm"/>
+    </properties>
+    <testcase classname="D:.fredgrttsstuff.GithubProjects.flutter_defanged.test.my_home_page" name="DeviceBuilder - one scenario - default devices Golden" time="3.688"/>
+    <testcase classname="D:.fredgrttsstuff.GithubProjects.flutter_defanged.test.my_home_page" name="DeviceBuilder - one scenario - override devices Golden" time="0.608"/>
+    <testcase classname="D:.fredgrttsstuff.GithubProjects.flutter_defanged.test.my_home_page" name="DeviceBuilder - multiple scenarios - with onCreate Golden" time="4.905"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" tests="1" skipped="0" name="D:.fredgrttsstuff.GithubProjects.flutter_defanged.test.widget" timestamp="2021-04-20T12:58:21">
+    <properties>
+      <property name="platform" value="vm"/>
+    </properties>
+    <testcase classname="D:.fredgrttsstuff.GithubProjects.flutter_defanged.test.widget" name="Counter increments smoke test" time="2.982"/>
+  </testsuite>
+</testsuites>

@@ -9,6 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_defanged/app/modules/myapp/views/my_app.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+//TODO setup a real test suite
 void main() {
   // we need to make sure the Flutter Sky-Engine is fully booted first
   WidgetsFlutterBinding.ensureInitialized();
